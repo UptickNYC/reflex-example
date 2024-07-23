@@ -90,7 +90,6 @@
 .spyproject
 .tox/
 .venv
-.web
 .webassets-cache
 /site
 ENV/
