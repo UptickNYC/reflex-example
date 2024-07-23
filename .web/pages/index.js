@@ -12,9 +12,9 @@ import { ColorModeContext } from "/utils/context"
 import { isTrue } from "/utils/state"
 import NextHead from "next/head"
 
+const RechartsAreaChart = dynamic(() => import('recharts').then((mod) => mod.AreaChart), { ssr: false });
 const RechartsPieChart = dynamic(() => import('recharts').then((mod) => mod.PieChart), { ssr: false });
 const RechartsLineChart = dynamic(() => import('recharts').then((mod) => mod.LineChart), { ssr: false });
-const RechartsAreaChart = dynamic(() => import('recharts').then((mod) => mod.AreaChart), { ssr: false });
 
 
 export function Link_45925b1e7b16944cfa98bcd9d4959bc7 () {
